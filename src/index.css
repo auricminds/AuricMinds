@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-black text-gray-100 antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+
+  .glass-hover {
+    @apply transition-all duration-500 hover:bg-white/10 hover:border-white/20;
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 20px rgba(194, 153, 88, 0.3);
+  }
+
+  .glow-gold-lg {
+    box-shadow: 0 0 40px rgba(194, 153, 88, 0.4), 0 0 80px rgba(194, 153, 88, 0.2);
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 bg-clip-text text-transparent;
+  }
+
+  .bg-gradient-radial {
+    background: radial-gradient(circle at center, rgba(194, 153, 88, 0.1) 0%, transparent 70%);
+  }
+}
