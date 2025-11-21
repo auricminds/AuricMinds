@@ -30,7 +30,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'A stunning online identity that mirrors Malak’s artistry. The website delivers an immersive visual journey, increased her professional inquiries, and became the foundation of her digital brand.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: 'dist/nano-banana-2025-10-22T15-31-52.png',
+      image: 'public/nano-banana-2025-10-22T15-31-52.png',
     },
     {
       id: 2,
