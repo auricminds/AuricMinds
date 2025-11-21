@@ -30,7 +30,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'A stunning online identity that mirrors Malak’s artistry. The website delivers an immersive visual journey, increased her professional inquiries, and became the foundation of her digital brand.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: 'public/nano-banana-2025-10-22T15-31-52.png',
+      image: 'dist/nano-banana-2025-10-22T15-31-52.png',
     },
     {
       id: 2,
@@ -115,7 +115,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'Clients get: Higher reply rates, 70% faster outreach workflow, Personalized messages for every lead, Cleaner data + clearer priorities, The ability to run a full campaign in 10 minutes. Perfect for agencies, SaaS founders, coaches, and businesses.',
       technologies: ['GPT models', 'Python automation engine', 'Structured prompt system', 'CSV + CRM integration', 'Gmail/LinkedIn APIs'],
-      image: 'dist/assets/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
+      image: 'public/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
     },
   ];
 
