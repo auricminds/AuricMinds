@@ -85,37 +85,37 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
     },
     {
       id: 5,
-      title: 'Lumina Health',
-      category: 'Healthcare AI',
-      year: '2023',
-      tagline: 'Compassionate technology',
+      title: 'Social Video Repurposer',
+      category: 'AI Automation',
+      year: '2025',
+      tagline: 'Transform long videos into viral, platform-ready clips — fully automated.',
       description:
-        'An AI-powered health companion that combines medical expertise with empathetic design to support patients and healthcare providers.',
+        'A full AI system that ingests a long YouTube-style video and automatically: Detects highlight moments, Cuts clean short-form clips, Auto-generates animated captions, Adds your branding, Creates titles & hashtags, Exports in multiple aspect ratios (9:16 / 1:1 / 16:9), Produces a thumbnail for each clip. The workflow is completely hands-off. You drop a file in → you receive multiple quality clips ready to post on TikTok, Reels, and Shorts.',
       challenge:
-        'Healthcare technology felt cold and clinical. Patients needed support that felt human, while providers needed efficiency.',
+        'Creators, businesses, and educators all face one pain',
       approach:
-        'We developed an AI that communicates with warmth and clarity, providing personalized health guidance while seamlessly integrating with clinical workflows.',
+        'The system uses layered intelligence: 1-Full Transcription, 2-Semantic Highlight Detection, 3-Audio + Visual Peak Detection, 4-Clip Extraction, 5-AI Captions + Styling, 6-Thumbnail Detection, 7-Multi-Platform Export. The result feels like a small editing team compressed into one automation.',
       result:
-        'Patient engagement increased 245%. Provider satisfaction up 78%. Reduced administrative burden by 4 hours per day per provider.',
-      technologies: ['Vue.js', 'Python', 'TensorFlow', 'FHIR API'],
-      image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        '1 long video = 3–7 viral short clips.',
+      technologies: ['Whisper AI', 'OpenAI GPT reasoning', 'FFmpeg', 'Python (processing pipeline)', 'Scene detection AI'],
+      image: 'public/Gemini_Generated_Image_p6d0jlp6d0jlp6d0.jpg',
     },
     {
       id: 6,
-      title: 'Sonic Brand Studio',
-      category: 'Creative Platform',
-      year: '2023',
-      tagline: 'Brand identity through sound',
+      title: 'Smart Outreach Engine',
+      category: 'AI Automation',
+      year: '2025',
+      tagline: 'Human-level personalization at machine speed.',
       description:
-        'A pioneering platform that generates unique sonic identities for brands using AI, creating audio signatures as distinctive as a logo.',
+        'The Smart Outreach Engine is a workflow that: Reads target leads (CSV, Airtable, CRM), Researches each company, Understands brand tone, Generates personalized messages, Writes subject lines + CTAs, Scores leads automatically, Exports ready-to-send emails & LinkedIn messages. It makes a full outreach campaign in minutes instead of days.',
       challenge:
-        'Visual branding is mature, but sonic branding remained expensive and time-consuming. We democratized the process.',
+        'Sales teams and freelancers waste time rewriting the same emails. Personalization is the only thing that works now — but it takes hours. The challenge was to build “personalization at scale.” Each message must feel hand-written.',
       approach:
-        'We trained AI on decades of music theory and brand psychology, creating a system that generates original, ownable sonic identities aligned with brand values.',
+        'We built a multi-layer engine: 1-Data Ingestion, 2-Lead Research, 3-Brand Voice Modeling, 4-AI Message Generation, 5-Lead Scoring, 6-Campaign Export. It becomes a digital sales assistant.',
       result:
-        'Generated sonic identities for 200+ brands. Featured in Cannes Lions. 95% of clients say their sonic identity perfectly captures their brand essence.',
-      technologies: ['Web Audio API', 'TensorFlow', 'Next.js', 'Stripe'],
-      image: 'https://images.pexels.com/photos/744318/pexels-photo-744318.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'Clients get: Higher reply rates, 70% faster outreach workflow, Personalized messages for every lead, Cleaner data + clearer priorities, The ability to run a full campaign in 10 minutes. Perfect for agencies, SaaS founders, coaches, and businesses.',
+      technologies: ['GPT models', 'Python automation engine', 'Structured prompt system', 'CSV + CRM integration', 'Gmail/LinkedIn APIs'],
+      image: 'public/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
     },
   ];
 

@@ -17,19 +17,43 @@ export default function ContactPage() {
   }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
+  e.preventDefault();
+  setIsSubmitting(true);
 
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', message: '' });
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        access_key: "651c1670-e58e-459c-b959-8b8a9f023b65",
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      }),
+    });
 
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 5000);
-    }, 1500);
-  };
+    const result = await response.json();
+
+    if (result.success) {
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", message: "" });
+    } else {
+      setSubmitStatus("error");
+    }
+  } catch (err) {
+    setSubmitStatus("error");
+  }
+
+  setIsSubmitting(false);
+
+  setTimeout(() => {
+    setSubmitStatus("idle");
+  }, 5000);
+};
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -149,7 +173,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-gray-100 font-medium mb-1">Email</h3>
-                      <p className="text-gray-400">hello@auricminds.com</p>
+                      <p className="text-gray-400">auricminds@gmail.com</p>
                     </div>
                   </div>
 
@@ -159,7 +183,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-gray-100 font-medium mb-1">Phone</h3>
-                      <p className="text-gray-400">+1 (555) 123-4567</p>
+                      <p className="text-gray-400">+20 1148000417</p>
                     </div>
                   </div>
 
@@ -169,7 +193,7 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="text-gray-100 font-medium mb-1">Location</h3>
-                      <p className="text-gray-400">San Francisco, CA</p>
+                      <p className="text-gray-400">Al Sheikh Zayed, Giza</p>
                     </div>
                   </div>
                 </div>

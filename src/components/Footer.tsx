@@ -15,8 +15,8 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   const socialLinks = [
-    { icon: Instagram, label: 'Instagram', href: '#' },
-    { icon: Linkedin, label: 'LinkedIn', href: '#' },
+    { icon: Instagram, label: 'Instagram', href: 'https://www.instagram.com/auric_minds?igsh=enFwY20xcHk3NTY0' },
+    { icon: Linkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/auric-minds-a5a92b390?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BJSE7lr7eTy6k5wneJrW%2Fpg%3D%3D' },
     { icon: Twitter, label: 'Twitter', href: '#' },
   ];
 
