@@ -115,7 +115,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'Clients get: Higher reply rates, 70% faster outreach workflow, Personalized messages for every lead, Cleaner data + clearer priorities, The ability to run a full campaign in 10 minutes. Perfect for agencies, SaaS founders, coaches, and businesses.',
       technologies: ['GPT models', 'Python automation engine', 'Structured prompt system', 'CSV + CRM integration', 'Gmail/LinkedIn APIs'],
-      image: 'public/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
+      image: 'dist/assets/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
     },
   ];
 
