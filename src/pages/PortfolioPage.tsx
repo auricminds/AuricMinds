@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
 import nanoBanana from '../assets/nano-banana-2025-10-22T15-31-52.png';
+import verteHouse from '../assets/Verte Mock post.png';
+import empyreClub from '../assets/mock website post club 2.png';
+import neonixLabs from '../assets/mock website tech 2.png';
+import videoRepurposer from '../assets/Gemini_Generated_Image_p6d0jlp6d0jlp6d0.jpg';
+import smartOutreach from '../assets/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg';
 
 
 interface PortfolioPageProps {
@@ -49,7 +54,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'A visually poetic website that blends art direction with interactive design. The final experience feels like walking through a digital atelier — immersive, emotive, and elegant. The design successfully communicates luxury without arrogance, artistry without chaos, and innovation without losing its soul."',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Vanilla + GSAP for animation'],
-      image: 'public/Verte Mock post.png',
+      image: verteHouse,
     },
     {
       id: 3,
@@ -66,7 +71,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'A visually enchanting and emotionally driven digital experience that transforms the concept of a private club into an interactive story. The result is not just a website, but a mood — refined, cinematic, and unforgettable.',
       technologies: ['HTML5', 'CSS3', 'JavaScript (GSAP animations)', 'Tailwind CSS + custom luxury typography'],
-      image: 'public/mock website post club 2.png',
+      image: empyreClub,
     },
     {
       id: 4,
@@ -83,7 +88,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'The final design achieves an immersive, cinematic experience that feels like entering the control room of the future. Every interaction, light reflection, and animation flows with intent. NEONIX LABS became a concept that redefines how high-tech brands can express luxury through motion, atmosphere, and intelligent simplicity."',
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'Tailwind CSS + GSAP for glassmorphic motion', 'Three.js for 3D holographic particle effects'],
-      image: 'public/mock website tech 2.png',
+      image: neonixLabs,
     },
     {
       id: 5,
@@ -100,7 +105,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         '1 long video = 3–7 viral short clips.',
       technologies: ['Whisper AI', 'OpenAI GPT reasoning', 'FFmpeg', 'Python (processing pipeline)', 'Scene detection AI'],
-      image: 'public/Gemini_Generated_Image_p6d0jlp6d0jlp6d0.jpg',
+      image: videoRepurposer,
     },
     {
       id: 6,
@@ -117,7 +122,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'Clients get: Higher reply rates, 70% faster outreach workflow, Personalized messages for every lead, Cleaner data + clearer priorities, The ability to run a full campaign in 10 minutes. Perfect for agencies, SaaS founders, coaches, and businesses.',
       technologies: ['GPT models', 'Python automation engine', 'Structured prompt system', 'CSV + CRM integration', 'Gmail/LinkedIn APIs'],
-      image: 'public/Gemini_Generated_Image_cig2p9cig2p9cig2.jpg',
+      image: smartOutreach,
     },
   ];
 
