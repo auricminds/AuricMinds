@@ -4,10 +4,10 @@ import ChatGPTImage from '../assets/ChatGPT_Image_Oct_4__2025_at_06_34_39_PM-rem
 // Example logos already in your public folder. You can add/remove later.
 const logos: string[] = [
   ChatGPTImage,
-  "/",
-  "/",
-  "/",
-  "/"
+  //,
+  //,
+  //,
+  //
 ];
 
 export default function LogoSlider() {
