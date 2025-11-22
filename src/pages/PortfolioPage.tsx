@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ExternalLink, ArrowLeft } from 'lucide-react';
+import nanoBanana from '../assets/nano-banana-2025-10-22T15-31-52.png';
+
 
 interface PortfolioPageProps {
   onNavigate: (page: string) => void;
@@ -30,7 +32,7 @@ export default function PortfolioPage({ onNavigate }: PortfolioPageProps) {
       result:
         'A stunning online identity that mirrors Malak’s artistry. The website delivers an immersive visual journey, increased her professional inquiries, and became the foundation of her digital brand.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      image: '/AuricMinds/nano-banana-2025-10-22T15-31-52.png',
+      image: nanoBanana,
     },
     {
       id: 2,
