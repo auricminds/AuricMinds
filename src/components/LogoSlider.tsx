@@ -2,11 +2,11 @@ import React from "react";
 
 // Example logos already in your public folder. You can add/remove later.
 const logos: string[] = [
-  "/mock website post club 2.png",
-  "/mock website tech 2.png",
-  "/Verte Mock post.png",
-  "/nano-banana-2025-10-22T15-31-52.png",
-  "/Screenshot 2025-10-22 at 6.32.39 PM.png"
+  "public/ChatGPT_Image_Oct_4__2025_at_06_34_39_PM-removebg-preview.png",
+  "/",
+  "/",
+  "/",
+  "/"
 ];
 
 export default function LogoSlider() {
