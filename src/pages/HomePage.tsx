@@ -68,7 +68,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-2xl mx-auto font-light">
-            Where Intelligence Meets Artistry
+            Endless Minds, ONE Vision
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
