@@ -67,7 +67,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         <div className="pt-8 border-t border-white/5 text-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} Auric Minds — Crafted with Intelligence By UssamaHussein
+            © 2025 Auric Minds — Crafted with Intelligence By UssamaHussein
           </p>
         </div>
       </div>
